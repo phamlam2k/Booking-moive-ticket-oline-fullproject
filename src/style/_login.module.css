@@ -1,0 +1,66 @@
+.login{
+    min-height: 100vh;
+    background-image: url('../asset/bg-movie-ticketing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form{
+    width: 1000px;
+    padding: 0px;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    box-shadow: 0 0 10px 4px rgb(44, 44, 44), 0 0 10px 30px transparent;
+}
+
+.login__form_carousel{
+    width: 50%;
+}
+
+.login__form_content{
+    width: 50%;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.login__form_content__title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.login__form_content_btn{
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    height: 45px;
+}
+
+.login__form_carousel_content__slide{
+    width: 100%;
+    height: 100%;
+}
+
+.login__form_carousel_content{
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+.login__form_carousel_content__slide img{
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+.login__form_content_text{
+    text-align: center;
+    padding-top: 20px;
+}
